@@ -1,0 +1,92 @@
+.progress-bar[aria-valuenow="0"] {
+  color: gray;
+  min-width: 3%;/*This is to make the padding a litle bit more*/
+  background: transparent;
+  box-shadow: none;
+}
+#load {
+  display: none;
+}
+ul{
+    list-style: none;
+    padding-left: 0px;
+}
+/*Change padding for h1 in review*/
+
+#your-question{
+    padding: 10px;
+}
+#tag2 img{
+    border: 1px solid grey;
+    margin: 5px;
+    width: 150px;
+}
+.pre-opt{
+    padding: 10px;
+   
+}
+.vote{
+    margin-top: 30px; 
+    margin-left: 10px; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
+  #edit_load,#write_load{
+      display: none;
+  }
+  .glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+iframe {
+    max-width: 100%;
+    max-height: 56.25vw; /* 315/560 = .5625 */
+}
+img{
+    max-width: 100%;
+height: auto;
+
+}
+.col-lg-3:nth-child(4n+1){
+    clear: left;
+}
+.navbar-brand {
+  padding: 0px; /* firefox bug fix */
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 15px; /* firefox bug fix */
+  width: auto;
+}
+.navbar{
+    margin-bottom: 0;
+}
+.slider-img{
+    padding-top: 20px;
+}
+.thumbnail{
+    border: none;
+}
+@media (max-width: 1000px)
+{
+  .my_left_nav
+  {
+   display: none;
+  }
+}
+ .my_left_nav
+  {
+  background-color: #ccc;
+  }
